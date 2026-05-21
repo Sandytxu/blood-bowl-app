@@ -1,0 +1,866 @@
+[
+    {
+        "id": "skill_placar",
+        "name": "Placar (Block)",
+        "category": "General",
+        "description": "Cuando este jugador participe en una acción de *placaje* en la que se aplique un resultado de ambos jugadores derribados, puede elegir **no ser derribado**.",
+        "is_elite": true,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_agallas",
+        "name": "Agallas (Dauntless)",
+        "category": "General",
+        "description": "Cuando este jugador realiza una acción de *placaje* contra un jugador rival con un atributo de **fuerza (FU)** superior al suyo (antes de aplicar modificadores a ambos juagdores), este jugador puede tirar 1D6 y sumar su atributo de fuerza al resultado. Si **el total es mayor que el atributo fuerza sin modificar del jugador rival**, mientras dure la acción de *placaje* este jugador aumentará su propio atributo de fuerza hasta igualarlo al del jugador rival. A continuación, se aplicarán de manera normal todos los modificadores que procedan.\nSi este jugador tiene además una habilidad que le permita realizar más de una acción de *placaje* en una misma activación, como por ejemplo furia, **deberá hacer una tirada de agallas por separado** para cada una de esas acciones de *placaje*. ",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_equilibrio_firme",
+        "name": "Equilibrio Firme (Steady Footing)",
+        "category": "General",
+        "description": "Cuando este jugador vaya a ser **derribado** o a **caerse por cualquier motivo**, tira 1D6. Con un resultado de 6, este jugador **no** es derribado o no se cae. Si esto ocurre durante su activación, este jugador puede seguir adelante con su activación de forma normal y **no se produce un cambio de turno**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_forcejear",
+        "name": "Forcejear (Wrestle)",
+        "category": "General",
+        "description": "Cuando este jugador realice una acción de *placaje*, o sea blanco de una acción de *placaje*, y vaya a aplicar un resultado de **ambos jugadores derribados**, puede elegir usar esta habilidad. En tal caso, ambos jugadores son colocados **tumbados boca arriba**, con independencia de otras habilidades que puedan tener.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_furia",
+        "name": "Furia (Frenzy)",
+        "category": "General",
+        "description": "Cada vez que este jugador realice una acción de *placaje* y empuje a su blanco, **debe hacer el movimiento de impulso si puede**. Además, si después de ser empujado el blanco sigue *en pie*, este jugador debe realizar **de inmediato** una **segunda acción de *placaje* contra ese mismo blanco** y hacer el movimiento de impulso si lo empuja de nuevo.\n Si este jugador está realizando una acción de *penetración*, la segunda acción de *placaje* le costará tambien una casilla de su movimiento. Si no le queda movimiento, **deberá forzar la marcha**. En caso de que no pueda forzar la marcha, **no podrá realizar el segundo *placaje***.\n\nUn jugador con esta habilidad **no puede tener** las habilidades: **Apartar, Golpe a la carrera o Placaje múltiple**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_manos_seguras",
+        "name": "Manos Seguras (Sure Hands)",
+        "category": "General",
+        "description": "Este jugador puede repetir el D6 al intentar **recoger el balón**, aunque **no** al realizar una acción de *asegurar el balón*. Además, la habilidad **Robar balón** no puede utilizarse contra este jugador.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_patada",
+        "name": "Patada (Kick)",
+        "category": "General",
+        "description": "Si este jugador es designado como pateador, cuando el balón se desvíe su entrenador puede elegir que se desvíe solo **1D3 casillas**, en lugar de las habituales 1D6. **Esta elección se realiza tras tirar el dado.**",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_placaje_defensivo",
+        "name": "Placaje Defensivo (Tackle)",
+        "category": "General",
+        "description": "Cuando un jugador rival intente *esquivar* para salir de una casilla en la zona de defensa de este jugador, **no podrá usar su habilidad *esquivar***. Además, cuando este jugador realice una acción de *placaje* contra un jugador rival, se considerará que dicho rival **no tiene la habilidad de *esquivar*** si se elige un resultado de *desequilibrado*.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_profesional",
+        "name": "Profesional (Pro)",
+        "category": "General",
+        "description": "Durante su activación, este jugador puede intentar repetir una tirada de dado. Ese dado puede haberse tirado por sí mismo o como parte de una tirada de varios dados o de una reserva de dados. Al usarse esta habilidad, se tira 1D6: con **3+** el dado elegido puede repetirse; con **1-2** el dado no puede repetirse.\n Esta habilidad no puede utilizarse para repetir un dado que sea parte de una tirada de *armadura*, de *heridas* o de *lesiones*, ni una tirada que se haya hecho fuera de la activación de este jugador o que no haya hecho directamente este jugador (como *protestar al árbitro* o *el público reacciona*).\nTras intentar usar esta habilidad, **no se puede utilizar ningún otro tipo de repetición en la misma tirada**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_provocar",
+        "name": "Provocar (Taunt)",
+        "category": "General",
+        "description": "Cuando este jugador es *empujado* debido a una acción de *placaje* realizada contra él, su *entrenador* puede obligar al jugador rival a que haga **un movimiento de *impulso***.\nEsta habilidad **no** puede usarse contra un jugador rival que haya *echado raices* debido al rasgo *echar raices*.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_robar_balon",
+        "name": "Robar Balón (Strip Ball)",
+        "category": "General",
+        "description": "Cuando este jugador realice una acción de *placaje* contra un jugador rival que sea **el portador del balón**, si el jugador rival es *empujado*, dejará caer el balón en la casilla a la que sea *empujado*, y el balón rebotará desde ella. Dicho rebote ocurre antes de que el jugador rival quede *tumbado boca arriba* (si eso sucede) pero después de que este jugador elija si hacer el movimiento de *impulso*.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo" 
+    },
+    {
+        "id": "skill_zafarse",
+        "name": "Zafarse (Fend)",
+        "category": "General",
+        "description": "Cuando este jugador sea *empujado* como resultado de una acción de *placaje* realizada contra él, **el jugador rival no puede hacer el movimiento de impulso**.\nEsta habilidad no se puede utilizar contra un jugador con el rasgo *bola con cadena*, ni contra un jugador con la habilidad *imparable* que esté realizando una acción de *penetración*.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_abrirse_paso",
+        "name": "Abrirse paso (Breack Tackle)",
+        "category": "Fuerza",
+        "description": "Una vez por turno, cuando este jugador intente *esquivar*, puede aplicar a su chequeo de *agilidad* un modificador de **+1 si su atributo *fuerza* es de 3 o menos**, o bien un modificador de **+2 si su atributo de *fuerza* es de 4**, o bien un modificador de **+3 si su atributo de *fuerza* es de 5 o más**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_apartar",
+        "name": "Apartar (Grab)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador declara una acción de *placaje*, si el blanco resulta *empujado*, el entrenador de este jugador puede elegir **cualquier casilla desocupada adyacente al blanco y empujarlo allí**. Si no hay casillas desocupadas adyacentes al blanco, esta habilidad no puede utilizarse.\nAdemás, cuando este jugador realiza una acción de *placaje*, el blanco no puede utilizar la habilidad *echarse a un lado*.\nUn juagdor con esta habilidad no puede tener la habilidad **furia**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_brazo_fuerte",
+        "name": "Brazo Fuerte (Strong Arm)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador realice una acción de *lanzar compañero*, puede aplicar un modificador de **+1 al chequeo de *pase***.\nUn jugador que no tenga el rasgo *lanzar compañero* **no puede tener esta habilidad**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_cabeza_dura",
+        "name": "Cabeza Dura (Thick Skull) (*Pasiva*)",
+        "category": "Fuerza",
+        "description": "Cuando se haga una tirada de **heridas** contra este jugador, solo quedará **incosciente** con un resultado de **9**, y tratará el resultado de **8** como **aturdido**. Si este jugador tiene además el rasgo de Escurridizo, en lugar de eso solo quedará incosciente con el resultado de **8**, y tratará el resultado de **7** como **aturdido**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_defensa",
+        "name": "Defensa (Guard)",
+        "category": "Fuerza",
+        "description": "Este jugador siempre puede ofrecer apoyos tanto ofensivos como defensivos en las acciones de **placaje**, sin importar por cuantos jugadores rivales esté siendo *marcado*.",
+        "is_elite": true,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_golpe_mortifero",
+        "name": "Golpe Mortífero (Mighty Blow)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador **derriba** a un jugador rival con una acción de *placaje*, incluso aunque él mismo sea también *derribado*, puede aplicar un modificador de **+1** o bien a la tirada de *armadura* o bien a la tirada de *heridas*. Se puede decidir aplicar este modificador **después** de hacer la tirada en cuestión",
+        "is_elite": true,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_imparable",
+        "name": "Imparable (Juggernaut)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador declara una acción de **penetración**, puede tratar cualquier resultado de **ambos jugadores derribados** como un resultado de **empujon** en los placajes que realice durante la misma. Además, cuando este jugador realiza una acción de *penetración*, los rivales no pueden usar las habilidades **Forcejeo, Mantenerse firme ni Zafarse**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_llave_de_brazo",
+        "name": "Llave de Brazo (Arm Bar)",
+        "category": "Fuerza",
+        "description": "Si un jugador se **cae** por haber fallado su intento de **esquivar, saltar o brincar** desde una casilla en la *zona de defensa* de este jugador, este jugador puede aplicar un modificador de **+1** o bien a la tirada de *armadura* o bien a la tirada de *heridas*. Se puede decidir aplicar este modificador despues de hacer la tirada en cuestión. Si el jugador rival resulta **lesionado** por haber fallado su intento de esquivar, saltar o brincar desde una casilla en la zona de defensa de este jugador, **se considerará que este jugador ha causado la lesión y recibe puntos de estrellato por ello**. Si un jugador intenta salir de una casilla en la *zona de defensa* de varios jugadores con esta habilidad, **solo uno de ellos podrá utilizarla**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_luchador",
+        "name": "Luchador (Brawler)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador declara una acción de **placaje**, puede repetir un **único** resultado de **ambos jugadores derribados**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_mantenerse_firme",
+        "name": "Mantenerse Firme (Stand Firm)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador vaya a ser empujado durante una acción de *placaje*, **incluso si es debido a un empujon en cadena**, puede elegir **no ser empujado** y permanecer en la casilla actual. El uso de esta habilidad no impide a un jugador con la habilidad de *furia* realizar una segunda acción de *placaje*, siempre y cuando este jugador siga en pie.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_ojo_de_halcon",
+        "name": "Ojo de halcón (Bullseye)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador realiza una acción de **lanzar compañero**, si el resultado es un **lanzamiento soberbio**, el jugador lanzado **no se escora antes de aterrizar**, sino que **aterriza en la casilla objetivo**. *Un jugador que no tenga el rasgo lanzar compañero no puede tener esta habilidad.*",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_placaje_multiple",
+        "name": "Placaje Múltiple (Multiple Block)",
+        "category": "Fuerza",
+        "description": "Cuando este jugador declara una acción de *placaje*, puede efectuar **hasta dos acciones de placaje**, cada una tomando como blanco a un jugador rival distinto al que esté marcando. Al hacer esto, el atributo de *fuerza* de este jugador **se reduce en 2 durante esas acciones de placaje**. Ambas acciones de *placaje* son **simultáneas**, *aunque se recomienda tirar por separado para evitar confusiones*. Eso significa que ambas **se resuelven por completo**, aunque alguna de las dos provoque un cambio de turno. Este jugador **no puede** hacer movimientos de impulso en ninguna de esas acciones de *placaje*. *Un jugador con esta habilidad no puede tener la habilidad furia.*",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_atrapar",
+        "name": "Atrapar (Catch)",
+        "category": "Agilidad",
+        "description": "Este jugador puede **repetir** cualquier chequeo de *agilidad* fallido al **intentar atrapar el balón**.",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_echarse_a_un_lado",
+        "name": "Echarse a un Lado (Sidestep)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_en_pie_de_un_salto",
+        "name": "En Pie de un Salto (Jump Up)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_esprintar",
+        "name": "Esprintar (Sprint)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_esquivar",
+        "name": "Esquivar (Dodge)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": true,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_golpe_a_la_carrera",
+        "name": "Golpe a la Carrera (Hit & Run)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pies_firmes",
+        "name": "Pies Firmes (Sure Feet)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_placaje_heroico",
+        "name": "Placaje Heroico (Diving Tackle)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_proteger_el_cuero",
+        "name": "Proteger el Cuero (Safe Pair of Hands)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_recepcion_heroica",
+        "name": "Recepción Heroica (Diving Catch)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_romper_defensas",
+        "name": "Romper Defensas (Defensive)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_saltar",
+        "name": "Saltar (Leap)",
+        "category": "Agilidad",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_atento_al_balon",
+        "name": "Atento al Balón (On The Ball)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_cañonero",
+        "name": "Cañonero (Cannoneer)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_lider",
+        "name": "Líder (Leader) (*Pasiva*)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_nervios_de_acero",
+        "name": "Nervios de Acero (Nerves of Steel)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_partenubes",
+        "name": "Partenubes (Cloud Burster)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pasar",
+        "name": "Pasar (Pass)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pasar_y_seguir",
+        "name": "Pasar y Seguir (Give and Go)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pase_a_lo_loco",
+        "name": "Pase a lo Loco (Hail Mary Pass)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pase_precipitado",
+        "name": "Pase Precipitado (Dump-Off)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pase_seguro",
+        "name": "Pase Seguro (Safe Pass)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_patada_de_despeje",
+        "name": "Patada de Despeje (Punt)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_precision",
+        "name": "Precisión (Accurate)",
+        "category": "Pase",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_jugar_sucio",
+        "name": "Jugar Sucio (Dirty Play)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_meter_la_bota",
+        "name": "Meter la Bota (Put the Boot in)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_perseguir",
+        "name": "Perseguir (Shadowing)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_piquete_de_ojos",
+        "name": "Piquete de Ojos (Eye Gouge)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_saboteador",
+        "name": "Saboteador (Saboteur)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_vuelo_letal",
+        "name": "Vuelo Letal (Deadly Flight)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_agresor_discreto",
+        "name": "Agresor Discreto (Lone Fouler)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_crujir",
+        "name": "Crujir (Pile Diver)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_dejada",
+        "name": "Dejada (Fumblerooski)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_falta_rapida",
+        "name": "Falta Rápida (Quick Ful)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_furtivo",
+        "name": "Furtivo (Sneaky Git)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_innovador_violento",
+        "name": "Innovador Violento (Violent Innovator)",
+        "category": "Triquinuela",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_apariencia_asquerosa",
+        "name": "Apariencia Asquerosa (Foul Appearance) (*Pasiva*)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_boca_monstruosa",
+        "name": "Boca Monstruosa (Monstrous Mouth)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_brazos_adicionales",
+        "name": "Brazos Adicionales (Extra Arms)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_cola_prensil",
+        "name": "Cola Prensil (Prehensile Tail)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_cuernos",
+        "name": "Cuernos (Horns)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_dos_cabezas",
+        "name": "Dos Cabezas (Two Heads)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_garras",
+        "name": "Garras (Claws) (*Pasiva*)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_mano_grande",
+        "name": "Mano Grande (Big Hand)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_piel_ferrea",
+        "name": "Piel Ferrea (Iron Hard Skin)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_piernas_muy_largas",
+        "name": "Piernas Muy Largas (Very Long Legs)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_presencia_perturbadora",
+        "name": "Presencia Perturbadora (Disturbing Presence) (*Pasiva*)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_tentaculos",
+        "name": "Tentáculos (Tentacles)",
+        "category": "Mutacion",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_animosidad",
+        "name": "* Animosidad (X) (Animosity)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_apuñalar",
+        "name": "Apuñalar (Stab)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_arma_secreta",
+        "name": "* Arma Secreta (Secret Weapon)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_bombardero",
+        "name": "Bombardero (Bombardier)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_borracho",
+        "name": "* Borracho (Drunkard)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_bola_con_cadena",
+        "name": "* Bola con Cadena (Ball & Chain)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_canijo",
+        "name": "* Canijo (Titchy)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_chutar_compañero",
+        "name": "Chutar Compañero (Kick Team-mate) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_descomposicion",
+        "name": "Descomposición (Decay) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_echar_raices",
+        "name": "* Echar Raíces (Take Root) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_el_balon_es_mio",
+        "name": "* El Balón Es Mío (My ball) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_el_balon_ni_verlo",
+        "name": "* El Balón Ni Verlo (No Ball) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_embustero",
+        "name": "Embustero (Trickster)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_escurridizo",
+        "name": "* Escurridizo (Stunty) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_estupido",
+        "name": "* Estúpido (Bone Head) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_exhalar_fuego",
+        "name": "Exhalar Fuego (Breath Fire)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_ferocidad_animal",
+        "name": "* Ferocidad Animal (Animal Savagery) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_humanoide_bala",
+        "name": "Humanoide Bala (Right Stuff) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_infectado",
+        "name": "Infectado (Infected) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_insignificante",
+        "name": "Insignificante (Insignificant) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_ira_descontrolada",
+        "name": "* Ira Descontrolada (Uncheaneled Fury) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_lanzar_compañero",
+        "name": "Lanzar Compañero (Throw Team-mate)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_levantar_compañero",
+        "name": "Levantar Compañero (Pick-Me-Up)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_mirada_hipnotica",
+        "name": "Mirada Hipnótica (Hypnotic Gaze) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_motosierra",
+        "name": "*Motosierra (Chainsaw)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_odio",
+        "name": "Odio (X) (Hatred) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_planear",
+        "name": "Planear (Swoop)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_pogo_saltarin",
+        "name": "Pogo Saltarín (Pogo)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_proyectil_de_vomito",
+        "name": "Proyectil de Vómito (Projectile Vomit)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_realmente_estupido",
+        "name": "* Realmente Estúpido (Really Stupid) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_regeneracion",
+        "name": "Regeneración (Regeneration) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_siempre_hambriento",
+        "name": "* Siempre Hambriento (Always Hungry)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_solitario",
+        "name": "* Solitario (X+) (Lonely) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_tembloroso",
+        "name": "* Tembloroso (Unsteady) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_tronco_va",
+        "name": "¡Tronco Va! (Timm-ber!) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    },
+    {
+        "id": "skill_sed_de_sangre",
+        "name": "* Sed de Sangre (BloodLust) (*Pasiva*)",
+        "category": "Rasgos",
+        "description": "",
+        "is_elite": false,
+        "version_id": "bb_2025_1.0-Marzo"
+    }
+]
