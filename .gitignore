@@ -1,0 +1,20 @@
+# Archivos de entorno y secretos (¡ESTO ES LO VITAL!)
+.env
+*.env
+.env.*
+
+# Binarios compilados (Los ejecutables que genera Go al compilar)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+
+# Archivos de VS Code / IDE
+.vscode/
+.idea/
+
+# Dependencias (En Go moderno no se suelen subir, se descargan con go.mod)
+vendor/
